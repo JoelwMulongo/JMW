@@ -21,8 +21,8 @@ jobs:
         java-version: '11'
 
     - name: Build with Gradle
-      run: ./gradlew build
+      run: .JMW/gradle/wrapper build
 
     - name: Run tests
-      run: ./gradlew test
+      run: .JMW/gradle/wrapper test
       
